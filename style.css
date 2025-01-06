@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  font-family: "Poppins", "Sofia";
+}
+
+#containerInformationProduct {
+  margin: 0%;
+  padding: 0%;
+  border: 0%;
+
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(14, 40px);
+
+  position: absolute;
+}
+
+/* Name of the Beer to promote*/
+.nameBeer {
+  margin: 0%;
+  padding: 0%;
+  border: 0%;
+
+  color: #ffffff;
+
+  font-size: 6vw;
+
+  display: flex;
+  align-items: start;
+  justify-content: start;
+
+  grid-column-start: 3;
+  grid-column-end: 5;
+
+  grid-row-start: 2;
+  grid-row-end: 5;
+
+  z-index: 3;
+}
+
+/* Name of the Brand to promote*/
+.brandBeer {
+  margin-top: 5%;
+  padding: 0%;
+  border: 0%;
+
+  color: #ffffff;
+
+  font-size: 2.5vw;
+
+  display: flex;
+  align-items: start;
+  justify-content: start;
+
+  grid-column-start: 3;
+  grid-column-end: 5;
+
+  grid-row-start: 5;
+  grid-row-end: 6;
+
+  z-index: 3;
+}
+
+/* Main features of the Beer*/
+.featuresBeer {
+  margin: 0%;
+  padding: 0%;
+  border: 0%;
+
+  color: #ffffff;
+
+  font-size: 1.5vw;  
+
+  display: flex;
+  align-items: start;
+  justify-content: start;
+
+  grid-column-start: 3;
+  grid-column-end: 5;
+
+  grid-row-start: 7;
+  grid-row-end: 8;
+
+  z-index: 3;
+}
+
+.feedbackCustomerBeer {
+  margin: 0%;
+  padding: 0%;
+  border: 0%;
+
+  color: #ffffff;
+
+  font-size: 0.9vw;
+
+  display: flex;
+  align-items: end;
+  justify-content: start;
+
+  grid-column-start: 3;
+  grid-column-end: 5;
+
+  grid-row-start: 8;
+  grid-row-end: 9;
+
+  z-index: 3;
+}
+
+.informationButtonBeer {
+  margin: 0%;
+  padding: 0%;
+  border: 0;
+
+  /* Size and Color of the button */
+  color: #f6977a;
+  background-color: #ffffff;
+
+  font-family: "Poppins";
+  font-size: 1.5vw;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 80%;
+  border-radius: 2em 2em;
+
+  grid-column-start: 3;
+  grid-column-end: 5;
+
+  grid-row-start: 10;
+  grid-row-end: 11;
+
+  z-index: 3;
+}
+
+.nameTypePackBeer {
+  margin-top: 4%;
+  margin-bottom: 0;
+  padding: 0%;
+  border: 0%;
+
+  color: #f6977a;
+
+  font-size: 1.6vw;
+
+  display: flex;
+  align-items: center;
+  justify-content: start;
+
+  grid-column-start: 7;
+  grid-column-end: 9;
+
+  grid-row-start: 2;
+  grid-row-end: 2;
+
+  z-index: 3;
+}
+
+.typeListPackBeer {
+  margin-top: 2%;
+  padding: 0%;
+  border: 0%;
+
+  grid-column-start: 7;
+  grid-column-end: 10;
+
+  grid-row-start: 3;
+  grid-row-end: 4;
+
+  z-index: 3;
+}
+
+.typePackBeer {
+  margin: 0%;
+  padding: 2.5%;
+
+  font-family: "Poppins";
+  font-size: 1.2vw;
+
+  color: #f6977a;
+  background-color: #ffffff;
+  
+  border: 0.1em solid #f6977a;
+  
+  z-index: 3;
+}
+
+.valuePriceBeer {
+  margin-top: 3%;
+  padding: 0%;
+  border: 0%;
+
+  color: #f6977a;
+
+  font-size: 2.5vw;
+
+  display: flex;
+  align-items: start;
+  justify-content: start;
+
+  grid-column-start: 7;
+  grid-column-end: 9;
+
+  grid-row-start: 5;
+  grid-row-end: 7;
+
+  z-index: 3;
+}
+
+.nameQuantityPackBeer {
+  margin: 0%;
+  padding: 0%;
+  border: 0%;
+
+  color: #f6977a;
+
+  font-size: 1.5vw;
+
+  display: flex;
+  align-items: start;
+  justify-content: start;
+
+  grid-column-start: 7;
+  grid-column-end: 9;
+
+  grid-row-start: 7;
+  grid-row-end: 8;
+
+  z-index: 3;
+}
+
+.quantityListPackBeer {
+  margin: 0%;
+  padding: 0%;
+
+  grid-column-start: 7;
+  grid-column-end: 10;
+
+  grid-row-start: 8;
+  grid-row-end: 10;
+
+  z-index: 3;
+}
+
+.quantityPackBeer {
+  margin: 0%;
+  padding: 2.5%;
+
+  font-family: "Poppins";
+  font-size: 1.2vw;
+
+  color: #f6977a;
+  background-color: #ffffff;
+
+  border: 0.1em solid #f6977a;
+
+  z-index: 3;
+}
+
+.addButtonBeer {
+  margin: 0%;
+  padding: 0%;
+  border: 0;
+
+  font-family: "Poppins";
+  
+  font-size: 1.5vw;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #ffffff;
+  background-color: #f6977a;
+
+  grid-column-start: 7;
+  grid-column-end: 10;
+
+  grid-row-start: 10;
+  grid-row-end: 11;
+
+  width: 50%;
+  border-radius: 2em 2em;
+
+  z-index: 3;
+}
+
+.rectangleImageBackground {
+  margin: 0%;
+  padding: 0%;
+  border: 0%;
+
+  border-radius: 2em 2em;
+
+  background: linear-gradient(90deg,
+      rgba(246, 151, 122, 0.9) 20%,
+      rgba(255, 255, 255, 0.9) 100%);
+
+  display: grid;
+  width: 100%;
+
+  grid-column-start: 2;
+  grid-column-end: 10;
+
+  grid-row-start: 2;
+  grid-row-end: 12;
+
+  z-index: 2;
+
+  position: relative;
+}
+
+.fruitsImageBackground {
+  opacity: 40%;
+
+  width: 100%;
+  height: 100%;
+
+  grid-column-start: 1;
+  grid-column-end: 11;
+
+  grid-row-start: 1;
+  grid-row-end: 13;
+
+  z-index: 1;
+
+  position: relative;
+}
+
+.beerImageBackground {
+  margin-left: -5%;
+  padding: 0%;
+  
+  border: 0%;
+  width: 100%;
+
+  grid-column-start: 5;
+  grid-column-end: 7;
+
+  grid-row-start: 1;
+  grid-row-end: 11;
+
+  z-index: 5;
+
+  position: relative;
+}
